@@ -1,0 +1,154 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="16dp"
+    android:background="#dffdfb"
+    tools:context=".Input">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/ic_person_pin_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:text="ID Peternak"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="230dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:text="Nama Peternak"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="300dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:text="Nama Kelompok"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNamaKelompok"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="370dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="420dp"
+                android:text="Umur"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextUmur"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="440dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="490dp"
+                android:text="Email"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="510dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="560dp"
+                android:text="Jabatan"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="580dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="730dp"
+                android:text="Alamat"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="750dp"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="65sp"
+                android:layout_marginTop="800dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/stylebutton"
+                android:padding="20sp"
+                android:text="UBAH DATA"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="125sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/stylebutton"
+                android:padding="20sp"
+                android:text="HAPUS DATA"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

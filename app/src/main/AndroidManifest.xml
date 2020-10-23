@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jordansatriopratama.uas.com.datakelompok">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"
+            android:label="Home"/>
+        <activity android:name=".ListItem"
+            android:screenOrientation="portrait"
+            android:label="List Peternak"/>
+        <activity android:name=".SemuaPeternak"
+            android:screenOrientation="portrait"
+            android:label="Daftar Peternak"/>
+        <activity android:name=".Info"
+            android:screenOrientation="portrait"
+            android:label="Info Peternak"/>
+        <activity android:name=".Input"
+            android:screenOrientation="portrait"
+            android:label="Input Peternak"/>
+        <activity android:name=".DetailPeternak"
+            android:screenOrientation="portrait"
+            android:label="Detail Peternak">
+        </activity>
+    </application>
+
+</manifest>
